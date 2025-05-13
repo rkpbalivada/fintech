@@ -1,6 +1,6 @@
 apiVersion: v2
 name: payment-gateway
-description: A simple Payment API (placeholder for a microservice)
+description: A Helm chart for Kubernetes with Argo Rollouts
 version: 0.1.0
 appVersion: "1.0"
 

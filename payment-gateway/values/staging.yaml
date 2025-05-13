@@ -1,8 +1,8 @@
 replicaCount: 2
 
 image:
-  repository: nginx
-  tag: 1.21.6
+  repository: fintech/payment-gateway 
+  tag: v1
 
 service:
   nodePort: 30002
