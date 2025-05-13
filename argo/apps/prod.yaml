@@ -6,8 +6,10 @@ metadata:
 spec:
   destination:
     namespace: prod
-    server: https://github.com/rkpbalivada/fintech.git 
+    server: https://kubernetes.default.svc
   source:
+    repoURL: https://github.com/rkpbalivada/fintech.git
+    targetRevision: HEAD
     path: payment-gateway
     helm:
       valueFiles:
@@ -17,5 +19,4 @@ spec:
     automated:
       prune: true
       selfHeal: true
-
 
