@@ -8,7 +8,7 @@ spec:
     namespace: dev
     server: https://kubernetes.default.svc
   source:
-    repoURL: https://github.com/rkpbalivada/devops.git 
+    repoURL: https://github.com/rkpbalivada/fintech.git 
     targetRevision: HEAD
     path: payment-gateway
     helm:
